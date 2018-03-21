@@ -1,5 +1,5 @@
-'''
-	var a = 1;
+'''javascript
+var a = 1;
 '''
 
     var a = 1;
