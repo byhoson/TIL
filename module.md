@@ -15,3 +15,17 @@ Menu.specialty = "Roasted Beet Burger with Mint Sauce";
 
 module.exports = Menu;
 ```
+
+##모듈 불러오기
+
+정의한 모듈을 이용하기 위해서는 모듈이 정의된 파일을 불러와야 한다. require() 함수를 사용한다.
+
+```javascript
+const Menu = require("./menu.js");
+
+function placeOrder() {
+  console.log("My order is: " + Menu.specialty);
+}
+
+placeOrder();
+```
