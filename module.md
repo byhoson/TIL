@@ -1,6 +1,6 @@
 # ES6 modules
 
-es6 의 모듈을 사용하기 위해서는
+es6 의 모듈을 사용하기 위해서는,
 
 1.  어떤 파일이 모듈이라는 것을 정의하고 (export)
 2.  정의한 파일을 쓸 수 있도록 해야 한다. (import)
@@ -9,9 +9,9 @@ es6 의 모듈을 사용하기 위해서는
 
 모듈은 하나의 object 이다. 모듈을 export 하기 위해서는 module.exports 가 모듈 object 를 참조해야한다.
 
-'''javascript
+```javascript
 let Menu = {};
 Menu.specialty = "Roasted Beet Burger with Mint Sauce";
 
 module.exports = Menu;
-'''
+```
