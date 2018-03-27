@@ -8,11 +8,13 @@
  순서는 다음과 같다.
 
 1. Calculate Geometry
- Document의 전체적인 골격을 구성한다. (땅따먹기)
+...Document의 전체적인 골격을 구성한다. (땅따먹기)
 
 2. Fill Fragments
- Geometry를 토대로 Fragment를 칠한다. 여기서 Pixel을 칠한다고 표현하지 않은 이유는 Geometry에 따라 칠해야 할 영역의 
- 크기가 바뀌기 때문.
+
+Geometry를 토대로 Fragment를 칠한다. 여기서 Pixel을 칠한다고 표현하지 않은 이유는 
+
+Geometry에 따라 칠해야 할 영역의 크기가 바뀌기 때문.
 
 ## NORMAL FLOW
 
